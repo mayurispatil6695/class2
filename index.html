@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthCare | Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Remix Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Health<span class="text-primary">Care</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-light py-5">
+    <div class="container text-center">
+      <h1 class="display-5 fw-bold">Providing an Exceptional Patient Experience</h1>
+      <p class="lead mt-3">
+        Welcome! At our facility, providing an exceptional patient experience is our top priority.
+        With compassionate care, state-of-the-art facilities, and a patient-centered approach, we are dedicated to your well-being.
+      </p>
+      <a href="#services" class="btn btn-primary mt-3">See Services</a>
+
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="p-4 border rounded bg-white">
+            <h4 class="mb-3">Book Now</h4>
+            <form>
+              <div class="mb-2"><input type="text" class="form-control" placeholder="First Name"></div>
+              <div class="mb-2"><input type="text" class="form-control" placeholder="Last Name"></div>
+              <div class="mb-2"><input type="text" class="form-control" placeholder="Address"></div>
+              <div class="mb-3"><input type="text" class="form-control" placeholder="Phone No."></div>
+              <button class="btn btn-primary w-100">Book Appointment</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Our Special Services</h2>
+      <p class="mb-4">Beyond simply providing medical care, our commitment lies in delivering unparalleled services tailored to your unique needs.</p>
+      <a href="#" class="btn btn-outline-primary mb-5">Ask A Service</a>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <i class="ri-microscope-line fs-2 mb-2 text-primary"></i>
+              <h5 class="card-title">Laboratory Test</h5>
+              <p class="card-text">Accurate diagnostics, swift results: experience top-notch lab testing at our facility.</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <i class="ri-health-book-line fs-2 mb-2 text-primary"></i>
+              <h5 class="card-title">Health Check</h5>
+              <p class="card-text">Stay proactive with our thorough assessments and expert evaluations.</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <i class="ri-tooth-line fs-2 mb-2 text-primary"></i>
+              <h5 class="card-title">General Dentistry</h5>
+              <p class="card-text">Comprehensive oral care. Trust us to keep your smile healthy and bright.</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>Welcome to our healthcare website, your one-stop destination for reliable and comprehensive health care information.</p>
+          <p>Explore articles and guides covering a wide range of health topics. From common medical conditions to lifestyle tips, we empower your health journey.</p>
+          <p>Discover practical health tips and advice to optimize your physical and mental well-being. Small changes lead to big results.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="./images/doctor3.webp" alt="doctor3" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="./images/doctor4.jpg" class="img-fluid rounded" alt="why choose us">
+        </div>
+        <div class="col-md-6">
+          <h2>Why Choose Us</h2>
+          <p>With a steadfast commitment to your well-being, our team ensures exceptional care experiences.</p>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <i class="ri-hand-heart-line text-primary me-2"></i>
+              <strong>Intensive Care:</strong> Equipped with advanced technology and a professional team.
+            </li>
+            <li class="mb-3">
+              <i class="ri-truck-line text-primary me-2"></i>
+              <strong>Free Ambulance:</strong> Prioritizing your health without financial burden.
+            </li>
+            <li>
+              <i class="ri-hospital-line text-primary me-2"></i>
+              <strong>Medical & Surgical:</strong> Advanced healthcare services tailored for your needs.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctors Section -->
+  <section class="bg-light py-5">
+    <div class="container text-center">
+      <h2>Our Special Doctors</h2>
+      <p>We take pride in our exceptional team of doctors, each a specialist in their field.</p>
+      <div class="row g-4 mt-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/doctor4.jpg" class="card-img-top" alt="Dr. James Anderson">
+            <div class="card-body text-center">
+              <h5>Dr. James Anderson</h5>
+              <p>Neurosurgeon</p>
+              <div>
+                <i class="ri-instagram-line me-2"></i>
+                <i class="ri-facebook-fill me-2"></i>
+                <i class="ri-heart-fill me-2"></i>
+                <i class="ri-twitter-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/doctor4.jpg" class="card-img-top" alt="Dr. James Anderson">
+            <div class="card-body text-center">
+              <h5>Dr. James Anderson</h5>
+              <p>Neurosurgeon</p>
+              <div>
+                <i class="ri-instagram-line me-2"></i>
+                <i class="ri-facebook-fill me-2"></i>
+                <i class="ri-heart-fill me-2"></i>
+                <i class="ri-twitter-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/doctor4.jpg" class="card-img-top" alt="Dr. James Anderson">
+            <div class="card-body text-center">
+              <h5>Dr. James Anderson</h5>
+              <p>Neurosurgeon</p>
+              <div>
+                <i class="ri-instagram-line me-2"></i>
+                <i class="ri-facebook-fill me-2"></i>
+                <i class="ri-heart-fill me-2"></i>
+                <i class="ri-twitter-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other doctors -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>Health<span class="text-primary">Care</span></h5>
+          <p>We are honored to be a part of your healthcare journey. Trust us to deliver top-notch care.</p>
+        </div>
+        <div class="col-md-3">
+          <h6>About Us</h6>
+          <ul class="list-unstyled">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Work With Us</li>
+            <li>Our Blog</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6>Services</h6>
+          <ul class="list-unstyled">
+            <li>Search Terms</li>
+            <li>Advanced Search</li>
+            <li>Privacy Policy</li>
+            <li>Suppliers</li>
+            <li>Our Stores</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6>Contact</h6>
+          <p><i class="ri-map-pin-2-fill me-2"></i>123 London Bridge Street</p>
+          <p><i class="ri-mail-fill me-2"></i>support@care.com</p>
+          <p><i class="ri-phone-fill me-2"></i>(+012) 3456 789</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center py-4 border-top mt-4">
+        <p class="mb-0">© 2025 HealthCare. All rights reserved.</p>
+        <div>
+          <a href="#" class="text-white me-3"><i class="ri-instagram-line"></i></a>
+          <a href="#" class="text-white me-3"><i class="ri-facebook-fill"></i></a>
+          <a href="#" class="text-white me-3"><i class="ri-heart-fill"></i></a>
+          <a href="#" class="text-white"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html> 

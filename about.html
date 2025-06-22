@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Remix Icon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <style>
+    body {
+      background-image: url("./images/aboutus1_pic.avif");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .about__content {
+      background-color: rgba(238, 238, 240, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 850px;
+      margin: 50px auto;
+      text-align: center;
+    }
+
+    h2.section__header {
+      font-size: 2rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.6;
+      margin: 15px 0;
+    }
+
+    .footer {
+      background-color: #212529;
+      color: #fff;
+    }
+
+    .footer__col h4,
+    .footer__col h3 {
+      color: white;
+    }
+
+    .footer__bar {
+      border-top: 1px solid #444;
+      padding-top: 1rem;
+      margin-top: 2rem;
+    }
+
+    .footer__socials a {
+      color: white;
+      margin-right: 1rem;
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 768px) {
+      .about__content {
+        padding: 15px;
+        margin: 20px;
+      }
+
+      h2.section__header {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Health<span class="text-primary">Care</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-3">
+          <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="about__content shadow">
+    <h2 class="section__header">About Us</h2>
+    <p>
+      Welcome to our healthcare website, your one-stop destination for
+      reliable and comprehensive health care information. We are committed
+      to promoting wellness and providing valuable resources to empower you
+      on your health journey.
+    </p>
+    <p>
+      Explore our extensive collection of expertly written articles and
+      guides covering a wide range of health topics. From understanding
+      common medical conditions to tips for maintaining a healthy lifestyle,
+      our content is designed to educate, inspire, and support you in making
+      informed choices for your health.
+    </p>
+    <p>
+      Discover practical health tips and lifestyle advice to optimize your
+      physical and mental well-being. We believe that small changes can lead
+      to significant improvements in your quality of life, and we're here to
+      guide you on your path to a healthier and happier you.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row text-white">
+        <div class="col-md-3 footer__col">
+          <h3>Health<span class="text-primary">Care</span></h3>
+          <p>
+            We are honored to be a part of your healthcare journey and committed
+            to delivering compassionate, personalized, and top-notch care every
+            step of the way.
+          </p>
+          <p>
+            Trust us with your health, and let us work together to achieve the
+            best possible outcomes for you and your loved ones.
+          </p>
+        </div>
+        <div class="col-md-3 footer__col">
+          <h4>About Us</h4>
+          <ul class="list-unstyled">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Work With Us</li>
+            <li>Our Blog</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer__col">
+          <h4>Services</h4>
+          <ul class="list-unstyled">
+            <li>Search Terms</li>
+            <li>Advanced Search</li>
+            <li>Privacy Policy</li>
+            <li>Suppliers</li>
+            <li>Our Stores</li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer__col">
+          <h4>Contact Us</h4>
+          <p><i class="ri-map-pin-2-fill me-2"></i>123, London Bridge Street, London</p>
+          <p><i class="ri-mail-fill me-2"></i>support@care.com</p>
+          <p><i class="ri-phone-fill me-2"></i>(+012) 3456 789</p>
+        </div>
+      </div>
+
+      <div class="footer__bar d-flex flex-column flex-md-row justify-content-between align-items-center mt-4 pt-3">
+        <p class="mb-2 mb-md-0">© 2025 HealthCare. All rights reserved.</p>
+        <div class="footer__socials">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="ri-instagram-line"></i></a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="ri-facebook-fill"></i></a>
+          <a href="https://example.com/your-favorite-page" target="_blank" rel="noopener"><i class="ri-heart-fill"></i></a>
+          <a href="https://twitter.com" target="_blank" rel="noopener"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
